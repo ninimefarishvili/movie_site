@@ -1,18 +1,48 @@
 body{
-    background-image: url(https://github.com/ninimefarishvili/movie_site/blob/main/background.jpg);
+    background-image: url(background.jpg);
     /* background-repeat: no-repeat; */
 }
 
 #h1{
-    margin-top: 300px ;
-    margin-bottom: 200px ;
-    margin-left: 400px ;
-    color: rgb(14, 18, 223);
+    margin-top: 250px ;
+    margin-bottom: 157px ;
+    margin-left: 350px ;
+    color:#18988d;
+    
         
 }
 
 #h12{
     
-    margin-left: 400px ;
-    color: rgb(14, 18, 223);
+    margin-left: 370px ;
+    color: #18988d;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    border-radius: 75px;
+    background-color: #18988d; /* Green background */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.button a {
+    color: white; /* Set text color to white */
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #ffffff; /* Darker green on hover */
 }
